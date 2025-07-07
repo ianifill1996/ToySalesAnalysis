@@ -36,6 +36,7 @@ This project analyzes toy sales performance across multiple superheroes and prod
 ### 5. Which month saw the highest overall sales?
 **Insight:** [Insert month here] had the highest total revenue, based on summing monthly columns from the sales data.
 
+## Folder Structure 
 toy-sales-analysis/
 ├── data/
 │   ├── items_analysis.csv
