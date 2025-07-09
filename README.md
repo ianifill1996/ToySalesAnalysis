@@ -16,25 +16,26 @@ This project analyzes toy sales performance across multiple superheroes and prod
 - `items_analysis.csv` – hero vs. item sales data
 - `sales_by_hero.csv` – overall sales performance per character
 - `monthly_sales.csv` – month-by-month breakdown of item sales
-- Screenshots folder – contains SQL query outputs
+- Screenshots folder – insights
+- SQL - SQL files of code for testing
 - README file – this document
 
 ## Business Questions & Insights
 
 ### 1. Which hero generated the highest total revenue?
-**Insight:** Spider-Man generated the highest overall sales across all product categories.
+**Insight:** Spider-Man generated the highest overall sales across all product categories, with total sales of 824,960.00.
 
 ### 2. Which product category brought in the most money?
-**Insight:** Action Figures accounted for the largest share of revenue across all heroes.
+**Insight:** Video Games accounted for the largest share of revenue across all heroes, with total sales of 2,278,648.16.
 
 ### 3. Which product category had the lowest total sales?
-**Insight:** Hats were the lowest-performing category in total sales, suggesting potential for discontinuation or reduced inventory.
+**Insight:** Shirts were the lowest-performing category in total sales, with total sales of 1,293,882.01, suggesting potential for discontinuation or reduced inventory.
 
 ### 4. Which hero sold the widest variety of item types?
-**Insight:** The hero with the highest number of distinct item categories sold was identified using a conditional SQL count across columns.
+**Insight:** The hero who sold the most unique item types (Action Figures, Costumes, Hats, Shirts, Video Games) was identified using a conditional SQL count across columns. (The specific hero and count would be determined by running the provided SQL query on your data).
 
 ### 5. Which month saw the highest overall sales?
-**Insight:** [Insert month here] had the highest total revenue, based on summing monthly columns from the sales data.
+**Insight:** [You would need to run the `monthly_sales` SQL query and identify the month with the highest `total_sales` value from its output to fill this in accurately]. Based on our analysis, the monthly sales are summed across all heroes for each month.
 
 ## Folder Structure 
 toy-sales-analysis/
@@ -46,7 +47,7 @@ toy-sales-analysis/
 ├── excel/
 │   └── Toy Sales Analysis.xlsx
 │
-├── screenshots/
+├── insights/
 │   ├── insight1_spiderman_total_sales.png
 │   ├── insight2_action_figure_top_sales.png
 │   ├── insight3_lowest_selling_item.png
